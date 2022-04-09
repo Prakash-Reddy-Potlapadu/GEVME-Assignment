@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{useReducer} from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import routes  from "./routes";
+import './App.scss'
+import {UserContext} from './containers/SingedUpUsers/context/context'
+import {initialUserState,userReducer} from './containers/SingedUpUsers/context/userReducer'
 
 function App() {
+  const [userState,dispatch]=useReducer(userReducer,initialUserState);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <UserContext.Provider value={{data:userState,dispatch:dispatch}}>
+    <BrowserRouter>
+        <Switch>
+            {routes.map((route, index) => (
+                <Route key={index} exact path={route.path} component={route.component} />
+            ))}
+        </Switch>
+    </BrowserRouter>
+    </UserContext.Provider>
   );
 }
 

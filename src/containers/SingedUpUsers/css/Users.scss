@@ -1,0 +1,57 @@
+.users-container {
+    height: 100%;
+}
+.profile-field {
+    .label {
+        color: #dfdfdf;
+        margin-top: 7px;
+        display: inline-block;
+    }
+    .value {
+        padding: 5px;
+        width: 90%;
+        border: 1px solid lightgrey;
+        margin-top: 6px;
+        border-radius: 3px;
+    }
+}
+.user-grid {
+    margin: 2rem;
+}
+
+.profile-info {
+    text-align: center;
+    .profile-pic {
+        background-color: darkgrey;
+        display: inline-block;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        color: #ffffff;
+        label {
+            line-height: 2rem;
+        }
+    }
+
+    .name {
+        margin: 12px 0 0 0;
+    }
+    .user-name {
+        margin: 5px 0 0 0;
+    }
+}
+.profile-container {
+    margin-top: 17%;
+}
+
+.posts-container {
+    //background-color: #e3e5e8;
+}
+.post-container {
+    //background-color: red;
+    box-shadow: 2px 2px 5px #dfdfdf;
+    width: 92%;
+    margin-top: 10px;
+    padding: 5px;
+    //border: 1px solid #dfdfdf;
+}

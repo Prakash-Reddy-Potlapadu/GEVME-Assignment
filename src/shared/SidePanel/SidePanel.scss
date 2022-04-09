@@ -1,0 +1,47 @@
+.sidepanel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 500px;
+    background: #fff;
+    border: 1px solid rgb(216, 216, 216);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    z-index: 10001;
+}
+
+.sidepanel-header {
+    padding: 10px 20px;
+    line-height: 30px;
+    height: 30px;
+    font-size: 17px;
+    //color: rgb(42, 100, 149);
+    //color: black;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background-color: rgb(245, 245, 245);
+    border-bottom: 1px solid rgb(216, 216, 216);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidepanel-close {
+    //background-image: url($url-prefix + "/images/axd-icons.png");
+    content: "X";
+    width: 16px;
+    height: 16px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.sidepanel-content {
+    overflow-y: auto;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 20px;
+}
