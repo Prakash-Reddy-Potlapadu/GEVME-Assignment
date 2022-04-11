@@ -51,17 +51,16 @@ const SingedUpUsers = () => {
     window.addEventListener("message", handleMessage);
 
     const handleSidePlanelClose = () => {
-        debugger;
         dispatch(setSidePanelData({ viewPosts: false, viewProfile: false }));
     };
 
     return (
         <main className="users-container">
             <iframe src="/users" title="Users" ref={iframeRef} style={{ height: "98%", width: "100%", border: "none" }} />
-            {(viewPosts || viewProfile) && (
+            {(viewPosts === true || viewProfile === true) && (
                 <SidePanel isMouseOutClose={true} onClose={handleSidePlanelClose} title={viewProfile ? "Profile" : "Post"}>
-                    {viewPosts && <Posts />}
-                    {viewProfile && <Profile />}
+                    {viewPosts === true && <Posts />}
+                    {viewProfile === true && <Profile />}
                 </SidePanel>
             )}
         </main>
