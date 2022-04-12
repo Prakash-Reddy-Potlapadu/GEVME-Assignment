@@ -56,7 +56,7 @@ const SingedUpUsers = () => {
 
     return (
         <main className="users-container">
-            <iframe src="GEVME-Assignment/#/users" title="Users" ref={iframeRef} style={{ height: "98%", width: "100%", border: "none" }} />
+            <iframe src={`${window.location.href}users`} title="Users" ref={iframeRef} style={{ height: "98%", width: "100%", border: "none" }} />
             {(viewPosts === true || viewProfile === true) && (
                 <SidePanel isMouseOutClose={true} onClose={handleSidePlanelClose} title={viewProfile ? "Profile" : "Post"}>
                     {viewPosts === true && <Posts />}
