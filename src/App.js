@@ -8,7 +8,7 @@ import { initialUserState, userReducer } from "./containers/SingedUpUsers/contex
 function App() {
     const [userState, dispatch] = useReducer(userReducer, initialUserState);
     return (
-        <BrowserRouter>
+        <BrowserRouter basemname={`/${process.env.PUBLIC_URL}`}>
             <UserContext.Provider value={{ data: userState, dispatch: dispatch }}>
                 <Switch>
                     {routes.map((route, index) => (
