@@ -4,7 +4,7 @@ export const getColumns = (handleViewprofile, handleViewPost) => {
             title: "Name",
             dataIndex: "name",
             key: "name",
-            width: 150,
+            width: "15%",
             align: "left",
             sortable: true,
         },
@@ -12,28 +12,28 @@ export const getColumns = (handleViewprofile, handleViewPost) => {
             title: "User Name",
             dataIndex: "username",
             key: "username",
-            width: 150,
+            width: "10%",
             align: "left",
         },
         {
             title: "Email",
             dataIndex: "email",
             key: "email",
-            width: 350,
+            width: "25%",
             align: "left",
         },
         {
             title: "Phone",
             dataIndex: "phone",
             key: "phone",
-            width: 200,
+            width: "15%",
             align: "left",
         },
         {
             title: "Website",
             dataIndex: "website",
             key: "website",
-            width: 200,
+            width: "15%",
             align: "left",
         },
         {
@@ -46,7 +46,7 @@ export const getColumns = (handleViewprofile, handleViewPost) => {
                 </a>
             ),
             align: "left",
-            width: 100,
+            width: "10%",
         },
         {
             title: "",
@@ -58,7 +58,7 @@ export const getColumns = (handleViewprofile, handleViewPost) => {
                 </a>
             ),
             align: "left",
-            width: 100,
+            width: "10%",
         },
     ];
 };
