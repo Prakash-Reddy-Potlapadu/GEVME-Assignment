@@ -9,7 +9,7 @@ const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(
     <React.StrictMode>
-        <HashRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter basename={"GEVME-Assignment/#"}>
             <App />
         </HashRouter>
     </React.StrictMode>
