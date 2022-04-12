@@ -64,8 +64,8 @@ export const getColumns = (handleViewprofile, handleViewPost) => {
 };
 
 export const getAddress = (addressObj) => {
-    if (Object.keys(addressObj).length) {
-        return `${addressObj.street}, ${addressObj.suite}, ${addressObj.city}, ${addressObj.zipcode}`;
+    if (Object.keys(addressObj).length && Object.keys(addressObj.address).length) {
+        return `${addressObj.address.street}, ${addressObj.address.suite}, ${addressObj.address.city}, ${addressObj.address.zipcode}`;
     } else {
         return "";
     }

@@ -55,3 +55,20 @@
     padding: 5px;
     //border: 1px solid #dfdfdf;
 }
+
+.grid-heading{
+    display: flex;
+    margin-bottom: 10px;
+    position: relative;
+    .heading{
+        margin:0;
+    }
+    .search-filter{
+       padding: 5px;
+       border:1px solid #dfdfdf;
+       border-radius: 4px;
+       position: absolute;
+       right: 0px;
+       bottom: -2px
+    }
+}
