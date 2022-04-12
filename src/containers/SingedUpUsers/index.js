@@ -52,6 +52,7 @@ const SingedUpUsers = () => {
 
     const handleSidePlanelClose = () => {
         dispatch(setSidePanelData({ viewPosts: false, viewProfile: false }));
+        window.location.reload(); //work around for github pages
     };
 
     return (
