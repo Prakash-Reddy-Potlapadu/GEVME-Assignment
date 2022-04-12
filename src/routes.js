@@ -9,7 +9,7 @@ const routes = [
         component: SingedUpUsers,
     },
     {
-        path: "GEVME-Assignment/#/users",
+        path: "/users",
         component: Users,
     },
 ];
