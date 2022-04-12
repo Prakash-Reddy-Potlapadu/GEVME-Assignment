@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/GEVME-Assignment/static/css/main.a3c7895e.css",
-    "main.js": "/GEVME-Assignment/static/js/main.17951494.js",
+    "main.js": "/GEVME-Assignment/static/js/main.5e2452e6.js",
     "static/css/126.4a1892fd.chunk.css": "/GEVME-Assignment/static/css/126.4a1892fd.chunk.css",
-    "static/js/126.48373e0b.chunk.js": "/GEVME-Assignment/static/js/126.48373e0b.chunk.js",
+    "static/js/126.6deed65c.chunk.js": "/GEVME-Assignment/static/js/126.6deed65c.chunk.js",
     "static/css/603.a4802e2a.chunk.css": "/GEVME-Assignment/static/css/603.a4802e2a.chunk.css",
     "static/js/603.ae93b40f.chunk.js": "/GEVME-Assignment/static/js/603.ae93b40f.chunk.js",
     "static/js/237.607a334b.chunk.js": "/GEVME-Assignment/static/js/237.607a334b.chunk.js",
     "index.html": "/GEVME-Assignment/index.html",
     "main.a3c7895e.css.map": "/GEVME-Assignment/static/css/main.a3c7895e.css.map",
-    "main.17951494.js.map": "/GEVME-Assignment/static/js/main.17951494.js.map",
+    "main.5e2452e6.js.map": "/GEVME-Assignment/static/js/main.5e2452e6.js.map",
     "126.4a1892fd.chunk.css.map": "/GEVME-Assignment/static/css/126.4a1892fd.chunk.css.map",
-    "126.48373e0b.chunk.js.map": "/GEVME-Assignment/static/js/126.48373e0b.chunk.js.map",
+    "126.6deed65c.chunk.js.map": "/GEVME-Assignment/static/js/126.6deed65c.chunk.js.map",
     "603.a4802e2a.chunk.css.map": "/GEVME-Assignment/static/css/603.a4802e2a.chunk.css.map",
     "603.ae93b40f.chunk.js.map": "/GEVME-Assignment/static/js/603.ae93b40f.chunk.js.map",
     "237.607a334b.chunk.js.map": "/GEVME-Assignment/static/js/237.607a334b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3c7895e.css",
-    "static/js/main.17951494.js"
+    "static/js/main.5e2452e6.js"
   ]
 }
