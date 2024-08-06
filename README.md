@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Live demo - https://prakash-reddy-potlapadu.github.io/GEVME-Assignment/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
